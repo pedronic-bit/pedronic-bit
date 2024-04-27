@@ -1,84 +1,43 @@
-<! Doctype HTML >
-<html lang="fr">
-<head>
-     <meta charset="utf-8"/>
-     <title>CASH-FLOWS<title>
-      <link rel="stylesheet"
-      href="style.css">
-</head>
-<body>
-<h1>Soins de visage et de la peau </h1>
-       <ul>
-     <li>Traitement de Ouf </li>
-        <ul>
-   <li>Le directeur général </li>
-      <li>Pedronic Gbaguidi Geordi</li>
-           <ul>
-        <ul>
-<body>
-<html>
-<h1>Title 1</h1>
+Sure, here is a simple calculator code in Python:
 
-<h2>Title 2</h2>
+```python
+# Calculator program in Python
 
-<p>Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit</p>
+def add(x, y):
+    return x + y
 
-<ul>
+def subtract(x, y):
+    return x - y
 
-<li>An item</li>
+def multiply(x, y):
+    return x * y
 
-<li>Another item</li>
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
 
-</ul>
+print("Select operation:")
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
 
-<a href="http://monsite.fr">An essential site</a>
+choice = input("Enter choice (1/2/3/4): ")
 
-<img src="./tux.png" />
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
-<table border="1px">
+if choice == '1':
+    print("Result: ", add(num1, num2))
+elif choice == '2':
+    print("Result: ", subtract(num1, num2))
+elif choice == '3':
+    print("Result: ", multiply(num1, num2))
+elif choice == '4':
+    print("Result: ", divide(num1, num2))
+else:
+    print("Invalid input")
+```
 
-<tr>
-
-<th>Coll</th>
-
-<th>Col2</th>
-
-</tr>
-
-<tr>
-
-<td>AAA</td>
-
-<td>BBB</td>
-
-</tr>
-
-</table>
-
-<form action="recup.php" method="GET">
-
-<input type="text" name="nom">
-
-<select name="choix">
-
-<option value="pile">PILE</option>
-
-<option value="face">FACE</option>
-
-</select>
-
-<input type="submit" value="OK">
-
-</form>
-
-<iframe width="560" height="315"
-
-src="https://www.youtube.com/embed/k9b
-
-v21-Gg9s" frameborder="0"
-
-allowfullscreen></iframe>
-
-
-
-
+You can run this code in a Python interpreter to use the calculator. Just follow the instructions on the screen to perform calculations.
